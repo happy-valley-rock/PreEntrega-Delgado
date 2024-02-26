@@ -2,9 +2,9 @@
   "name": "luca-not-dead",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.html",
+  "main": "index.html",
   "scripts": {
-    "build-css": "node-sass --include-path scss src/styles/main.scss src/app.css",
+    "build-css": "node-sass --include-path scss scss/main.scss app.css",
     "dev": "nodemon -e scss -x \"npm run build-css\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
